@@ -24,6 +24,23 @@ public class _03_Variables {
 
         boolean pass = true; //boolean 자료형
         System.out.println("이번 시험에 통과했나요? " + pass);
+
+        // double vs float
+        // double은 그냥 사용, float은 숫자 뒤에 f or F 사용
+        // double 정밀한 값까지 출력
+        double d = 3.14987654321;
+        float f = 3.14987654321F;
+        System.out.println(d);
+        System.out.println(f);
+
+        //int vs long
+        // int범위 약 +21억 ~ -21억
+        // 21억 초과시 long 형 사용
+
+//        int i = 1000000000000;
+        long l = 1000000000000L;
+        l = 1_000_000_000_000L;
+        System.out.println(l);
     }
 
 }
