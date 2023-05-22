@@ -1,7 +1,7 @@
 package chap_01;
 
 /**
- * @title : 자료형
+ * @Title : 자료형
  */
 public class _02_DataTypes {
 
