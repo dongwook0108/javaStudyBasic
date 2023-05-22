@@ -1,4 +1,4 @@
-# javaWorkspace
+# javaStudyBasic
 ### 자바 공부 기록 - 기본편
 
 #### [나도 코딩](https://www.inflearn.com/course/%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B3%B8)의 자바 기본편을 학습하고 작성한 글입니다.
