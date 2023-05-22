@@ -4,7 +4,7 @@ package chap_04;
  * @Title : 조건문
  * @Content : Switch Case
  */
-public class _03_SwitchCase {
+public class _04_SwitchCase {
 
     public static void main(String[] args) {
         //Switch Case
