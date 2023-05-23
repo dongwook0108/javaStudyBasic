@@ -31,6 +31,7 @@ public class _10_Break {
             index++;
         }
         System.out.println("영업 종료 !");
+        System.out.println("test");
 
     }
 
