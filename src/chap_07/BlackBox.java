@@ -33,4 +33,20 @@ public class BlackBox {
             return 11;
         }
     }
+
+    public void recored(boolean showDateTime, boolean showSpeed, int min) {
+        System.out.println("녹화를 시작합니다. ");
+        if (showDateTime) {
+            System.out.println("영상에 날짜정보가 표시됩니다.");
+        }
+
+        if (showSpeed) {
+            System.out.println("영상에 속도 정보가 표시됩니다.");
+        }
+        System.out.println("영상은 " + min + "분 단위로 기록 됩니다.");
+    }
+
+    public void recored() {
+        recored(true, true, 10);
+    }
 }
