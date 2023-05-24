@@ -5,7 +5,7 @@ package chap_06;
  * @Content : 1. 반복되는 코드 중복을 줄일 수 있음
  *
  */
-public class _06_WhenToUse {
+public class _07_WhenToUse {
 
     public static int getPower(int number, int exponent) {
         int result = 1;
