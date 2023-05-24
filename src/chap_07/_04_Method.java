@@ -9,9 +9,9 @@ public class _04_Method {
     public static void main(String[] args) {
         BlackBox b1 = new BlackBox();
         b1.modelName = "까망이";
-        b1.autoRepory(); // 지원 x
+        b1.autoReport(); // 지원 x
         BlackBox.canAutoReport = true;
-        b1.autoRepory(); // 지원 o
+        b1.autoReport(); // 지원 o
         b1.insertMemoryCard(400);
 
         //일반 영상

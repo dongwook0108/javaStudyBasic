@@ -11,7 +11,7 @@ public class BlackBox {
     // static 선언 시 클래스 변수
 
 
-    public void autoRepory() {
+    public void autoReport() {
         if (canAutoReport) {
             System.out.println("충돌이 감지되어 자동으로 신고합니다.");
         } else {
@@ -48,5 +48,11 @@ public class BlackBox {
 
     public void recored() {
         recored(true, true, 10);
+    }
+
+    public static void callServiceCenter() {
+        System.out.println("서비스 센터 1588-1100으로 연결합니다.");
+//        modelName = "test";// static 으로 선언되어있지 않으므로 변경 불가능
+        canAutoReport = true; // static 으로 선언된 클래스 변수는 static 메서드에서 바로 사용이 가능함
     }
 }
