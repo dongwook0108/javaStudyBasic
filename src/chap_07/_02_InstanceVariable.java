@@ -2,7 +2,7 @@ package chap_07;
 
 /**
  * @Title : 인스턴스 변수
- * @Content :
+ * @Content : 서로다른 객체에서 서로 다른 값을 가짐
  */
 public class _02_InstanceVariable {
 

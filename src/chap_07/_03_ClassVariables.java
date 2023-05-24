@@ -1,0 +1,32 @@
+package chap_07;
+
+/**
+ * @Title : 클래스 변수
+ * @Content : static 선언시 클래스 변수 -> 모든 객체 값을 공유
+ * 일반적으로 호출 시 클래스명.클래스변수
+ */
+public class _03_ClassVariables {
+
+    public static void main(String[] args) {
+        BlackBox b1 = new BlackBox();
+        b1.modelName = "까망이";
+        System.out.println(b1.modelName);
+
+        BlackBox b2 = new BlackBox();
+        b2.modelName = "하양이";
+        System.out.println(b2.modelName);
+
+        // 자동 신고 기능
+        System.out.println("===개발전===");
+        System.out.println(b1.modelName + "자동 신고 기능 : " + b1.canAutoReport);
+        System.out.println(b2.modelName + "자동 신고 기능 : " + b2.canAutoReport);
+        System.out.println("모든 제품 자동 신고 기능 : " + BlackBox.canAutoReport);
+
+        //기능 개발
+        BlackBox.canAutoReport = true;
+        System.out.println("===개발후===");
+        System.out.println(b1.modelName + "자동 신고 기능 : " + b1.canAutoReport);
+        System.out.println(b2.modelName + "자동 신고 기능 : " + b2.canAutoReport);
+        System.out.println("모든 제품 자동 신고 기능 : " + BlackBox.canAutoReport);
+    }
+}
