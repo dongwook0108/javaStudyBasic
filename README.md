@@ -89,7 +89,7 @@
   - [메소드 오버로딩](#메소드-오버로딩)
   - [클래스 메소드](#클래스-메소드)
   - [This](#this)
-  - [생성자]([#생성자](https://www.notion.so/d6f6910447f3465bab0d12e5135354c7?pvs=4#c0775fecc07a49a9a2df0f11e6a740e4))
+  - [생성자](https://www.notion.so/d6f6910447f3465bab0d12e5135354c7?pvs=4#c0775fecc07a49a9a2df0f11e6a740e4)
   - [Getter 와 Setter](#getter-와-setter)
   - [접근 제어자](#접근-제어자)
   - [패키지](#패키지)
