@@ -55,4 +55,8 @@ public class BlackBox {
 //        modelName = "test";// static 으로 선언되어있지 않으므로 변경 불가능
         canAutoReport = true; // static 으로 선언된 클래스 변수는 static 메서드에서 바로 사용이 가능함
     }
+
+    public void appendModelName(String modelName) {
+        this.modelName += modelName;
+    }
 }
