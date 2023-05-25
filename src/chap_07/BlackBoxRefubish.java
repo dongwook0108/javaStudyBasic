@@ -2,10 +2,10 @@ package chap_07;
 
 public class BlackBoxRefubish {
 
-    String modelName;
+    public String modelName;
     String resolution;
     private int price;
-    String color;
+    protected String color;
 
     public String getModelName() {
         return modelName;

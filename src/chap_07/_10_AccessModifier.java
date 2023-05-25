@@ -3,6 +3,8 @@ package chap_07;
 /**
  * @Title : 접근제어자
  * @Content : 접근을 제어하는 것
+ * 캡슐화
+ * 정보은닉 (information hiding) -> 변수나 메소드의 직접적인 접근을 막고 객체에서 허용해주는것만 받음
  * private: 해당 클래스 내에서만 접근 가능
  * public: 모든 클래스에서 접근 가능
  * default : (아무것도 적지 않았을 때)같은 패키지 내에서만 접근 가능
