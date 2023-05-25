@@ -5,8 +5,13 @@ public class Camera {
     public String name;
 
     public Camera() {
-        this.name = "카메라";
+        this("카메라");
     }
+
+    protected Camera(String name) {
+        this.name = name;
+    }
+
 
     public void takePicture() {
         System.out.println(this.name + " : 사진을 촬영합니다.");
