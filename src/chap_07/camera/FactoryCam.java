@@ -12,5 +12,7 @@ public class FactoryCam extends Camera {
         System.out.println("화재 감지 기능");
     }
 
-
+    public void showMainFeature() {
+        System.out.println(this.name + "의 주요 기능 : 화재 감지");
+    }
 }
