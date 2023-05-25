@@ -29,6 +29,5 @@ public class FactoryCam extends Camera implements Detectable, Reportable {
     @Override
     public void report() {
         reporter.report();
-
     }
 }
