@@ -4,6 +4,7 @@ package chap_10;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -93,7 +94,32 @@ public class _05_Stream {
         boolean allMatch = langList.stream().filter(x -> x.length() <= 4)
                 .allMatch(x -> x.contains("c"));
         System.out.println(allMatch);
+        System.out.println("----------------");
 
+        // Map 사용
+        // 4글자 이하 언어 중 '어려워요'  라는 글자 추가하기
+        langList.stream()
+                .filter(x -> x.length() <= 4)
+                .filter(x -> x.contains("c"))
+                .map(x -> x + "(어렵다)")
+                .forEach(System.out::println);
+        System.out.println("----------------");
+
+        // C포함하는 언어 대문자로 바꾸기
+        langList.stream()
+                .filter(x -> x.contains("c"))
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
+        System.out.println("----------------");
+
+        // C포함하는 언어 대문자로 바꾸고 list에 저장
+        List<String> capitalList = langList.stream()
+                .filter(x -> x.contains("c"))
+                .map(String::toUpperCase)
+                .collect(Collectors.toList());
+        capitalList.stream().forEach(System.out::println);
+
+        System.out.println(capitalList);
     }
 
 }
