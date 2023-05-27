@@ -23,7 +23,7 @@ public class _02_AnonymousClass2 {
             @Override
             public void cook() {
                 System.out.println("동생이 만드는 군대리아 ~");
-                System.out.println("딸기잼, 우유, 빵");
+                System.out.println("재료는 : 딸기잼, 우유, 빵");
             }
         };
     }
